@@ -19,6 +19,10 @@ sudo apt-get remove onboard deja-dup
 echo "正在安装 vim"
 sudo apt-get install vim 
 
+# 安装 git
+echo "正在安装 git"
+sudo apt-get install git
+
 # 安装Oracle Java
 echo "正在安装 Oracle Java"
 sudo add-apt-repository ppa:webupd8team/java    
@@ -35,6 +39,9 @@ sudo apt-get install exfat-fuse
 echo "正在安装 lnav"
 sudo apt-get install lnav 
 
+# 卸载火狐
+# sudo apt-get autoremove firefox firefox-branding firefox-gnome-support ubufox     //保留配置文件
+# sudo apt-get purge firefox firefox-branding firefox-gnome-support ubufox     //配置文件也一起删掉
 
 
 # ==================== 喜好设置 ====================
