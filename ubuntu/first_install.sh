@@ -1,3 +1,5 @@
+#!/bin/bash 
+
 # ubuntu 安装 shell
 
 # ==================== 删除不必要软件 ====================
@@ -23,12 +25,12 @@ sudo apt-get install vim
 echo "正在安装 git"
 sudo apt-get install git
 
-# 安装Oracle Java
-echo "正在安装 Oracle Java"
-sudo add-apt-repository ppa:webupd8team/java    
-sudo apt-get update    
-sudo apt-get install oracle-java8-installer   
-sudo rm /usr/share/upstart/sessions/jayatana.conf  
+# # 安装Oracle Java
+# echo "正在安装 Oracle Java"
+# sudo add-apt-repository ppa:webupd8team/java    
+# sudo apt-get update    
+# sudo apt-get install oracle-java8-installer   
+# sudo rm /usr/share/upstart/sessions/jayatana.conf  
 
 
 # 安装ExFat文件系统驱动
@@ -47,7 +49,7 @@ sudo apt-get install lnav
 # ==================== 喜好设置 ====================
 # 添加“别名”(alias)
 echo "添加别名"
-alias vi=vim
+alias vi='vim'
 
 
 
