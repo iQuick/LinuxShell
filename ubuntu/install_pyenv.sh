@@ -8,7 +8,7 @@ if [ ! -d $PY_HOME ]; then
 fi
 
 echo '正在下载 pyenv'
-git clone git://github.com/yyuu/pyenv.git ~/dev/.pyenv
+git clone git://github.com/yyuu/pyenv.git ~/.pyenv
 echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc
 echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bashrc
 echo 'eval "$(pyenv init -)"' >> ~/.bashrc  #向 shell 添加 pyenv init 以启用 shims 和命令补完功能
